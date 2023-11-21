@@ -126,6 +126,9 @@ section {
     padding: 0 1em;
     width: max-content;
 }
+form{
+    background-color: yellowgreen;
+}
 
 footer{
     height: 7em;
@@ -141,11 +144,6 @@ footer img{
     border-radius: 1em;
 }
 
-
-@media (max-width: 768px) {
-    
-
-}
 @media (max-width: 425px) {
     header {
         flex-direction: column;
@@ -186,10 +184,6 @@ footer img{
         height: auto;
         border-radius: 12124px;
     }
-    .section_right{
-        
-    }
-
     .section_right_item{
         margin: 1em;
         
